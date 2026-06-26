@@ -430,18 +430,6 @@
 /processorParam:TextureFormat=Color
 /build:textures/patterns/diamonds.png
 
-#begin textures/shapes/squares.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/shapes/squares.png
-
 #begin textures/third_parties/monogame.png
 /importer:TextureImporter
 /processor:TextureProcessor

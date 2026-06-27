@@ -6,152 +6,152 @@
 /platform:Windows
 /config:
 /profile:Reach
-/compress:False
+/compress:True
 
 #-------------------------------- References --------------------------------#
 
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Effects/GradientTransition.fx
+#begin effects/gradient_transition.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:Effects/GradientTransition.fx
+/build:effects/gradient_transition.fx
 
-#begin Songs/Volume_01/Track_01.ogg
+#begin songs/volume_01/track_01.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_01.ogg
+/build:songs/volume_01/track_01.ogg
 
-#begin Songs/Volume_01/Track_02.ogg
+#begin songs/volume_01/track_02.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_02.ogg
+/build:songs/volume_01/track_02.ogg
 
-#begin Songs/Volume_01/Track_03.ogg
+#begin songs/volume_01/track_03.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_03.ogg
+/build:songs/volume_01/track_03.ogg
 
-#begin Songs/Volume_01/Track_04.ogg
+#begin songs/volume_01/track_04.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_04.ogg
+/build:songs/volume_01/track_04.ogg
 
-#begin Songs/Volume_01/Track_05.ogg
+#begin songs/volume_01/track_05.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_05.ogg
+/build:songs/volume_01/track_05.ogg
 
-#begin Songs/Volume_01/Track_06.ogg
+#begin songs/volume_01/track_06.ogg
 /importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:Songs/Volume_01/Track_06.ogg
+/build:songs/volume_01/track_06.ogg
 
-#begin Sounds/UI/Accepted.wav
+#begin sounds/ui/accepted.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Accepted.wav
+/build:sounds/ui/accepted.wav
 
-#begin Sounds/UI/Click.wav
+#begin sounds/ui/click.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Click.wav
+/build:sounds/ui/click.wav
 
-#begin Sounds/UI/Error.wav
+#begin sounds/ui/error.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Error.wav
+/build:sounds/ui/error.wav
 
-#begin Sounds/UI/Hover.wav
+#begin sounds/ui/hover.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Hover.wav
+/build:sounds/ui/hover.wav
 
-#begin Sounds/UI/Message.wav
+#begin sounds/ui/message.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Message.wav
+/build:sounds/ui/message.wav
 
-#begin Sounds/UI/PauseEnded.wav
+#begin sounds/ui/pause_ended.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/PauseEnded.wav
+/build:sounds/ui/pause_ended.wav
 
-#begin Sounds/UI/PauseStarted.wav
+#begin sounds/ui/pause_started.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/PauseStarted.wav
+/build:sounds/ui/pause_started.wav
 
-#begin Sounds/UI/Rejected.wav
+#begin sounds/ui/rejected.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Rejected.wav
+/build:sounds/ui/rejected.wav
 
-#begin Sounds/UI/Returning.wav
+#begin sounds/ui/returning.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Returning.wav
+/build:sounds/ui/returning.wav
 
-#begin Sounds/UI/Typing_01.wav
+#begin sounds/ui/typing_01.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Typing_01.wav
+/build:sounds/ui/typing_01.wav
 
-#begin Sounds/UI/Typing_02.wav
+#begin sounds/ui/typing_02.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Typing_02.wav
+/build:sounds/ui/typing_02.wav
 
-#begin Sounds/UI/Typing_03.wav
+#begin sounds/ui/typing_03.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Typing_03.wav
+/build:sounds/ui/typing_03.wav
 
-#begin Sounds/UI/Typing_04.wav
+#begin sounds/ui/typing_04.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Typing_04.wav
+/build:sounds/ui/typing_04.wav
 
-#begin Sounds/UI/Typing_05.wav
+#begin sounds/ui/typing_05.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/Typing_05.wav
+/build:sounds/ui/typing_05.wav
 
-#begin Sounds/UI/WorldLoaded.wav
+#begin sounds/ui/world_loaded.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/WorldLoaded.wav
+/build:sounds/ui/world_loaded.wav
 
-#begin Sounds/UI/WorldSaved.wav
+#begin sounds/ui/world_saved.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:Sounds/UI/WorldSaved.wav
+/build:sounds/ui/world_saved.wav
 
-#begin Textures/Achievements.png
+#begin textures/achievements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -161,9 +161,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Achievements.png
+/build:textures/achievements.png
 
-#begin Textures/Actors.png
+#begin textures/actors.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -173,9 +173,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Actors.png
+/build:textures/actors.png
 
-#begin Textures/Backgrounds.png
+#begin textures/backgrounds.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -185,9 +185,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Backgrounds.png
+/build:textures/backgrounds.png
 
-#begin Textures/BGOs.png
+#begin textures/bgos.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -197,9 +197,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/BGOs.png
+/build:textures/bgos.png
 
-#begin Textures/Cursors.png
+#begin textures/cursors.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -209,9 +209,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Cursors.png
+/build:textures/cursors.png
 
-#begin Textures/Elements.png
+#begin textures/elements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -221,9 +221,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Elements.png
+/build:textures/elements.png
 
-#begin Textures/Frames.png
+#begin textures/frames.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -233,9 +233,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Frames.png
+/build:textures/frames.png
 
-#begin Textures/Icons.png
+#begin textures/icons.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -245,9 +245,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Icons.png
+/build:textures/icons.png
 
-#begin Textures/Patterns.png
+#begin textures/patterns.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -257,9 +257,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/Patterns.png
+/build:textures/patterns.png
 
-#begin Textures/UI/Elements.png
+#begin textures/ui/elements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -269,9 +269,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/UI/Elements.png
+/build:textures/ui/elements.png
 
-#begin Textures/UI/Panels.png
+#begin textures/ui/elements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -281,9 +281,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/UI/Panels.png
+/build:textures/ui/elements.png
 
-#begin Textures/UI/Tutorial.png
+#begin textures/ui/panels.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -293,5 +293,41 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Textures/UI/Tutorial.png
+/build:textures/ui/panels.png
+
+#begin textures/ui/panels.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/ui/panels.png
+
+#begin textures/ui/tutorial.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/ui/tutorial.png
+
+#begin textures/ui/tutorial.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:textures/ui/tutorial.png
 

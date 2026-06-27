@@ -13,208 +13,145 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin effects/gradient_transition.fx
+#begin Effects/GradientTransition.fx
 /importer:EffectImporter
 /processor:EffectProcessor
 /processorParam:DebugMode=Auto
-/build:effects/gradient_transition.fx
+/build:Effects/GradientTransition.fx
 
-#begin fonts/arial.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/arial.spritefont
-
-#begin fonts/big_apple_3pm.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/big_apple_3pm.spritefont
-
-#begin fonts/comic_sans_ms.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/comic_sans_ms.spritefont
-
-#begin fonts/cooper_bits.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/cooper_bits.spritefont
-
-#begin fonts/de_pixel_breit.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/de_pixel_breit.spritefont
-
-#begin fonts/digital_disco.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/digital_disco.spritefont
-
-#begin fonts/pixel_operator.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/pixel_operator.spritefont
-
-#begin fonts/vcr_osd_mono_1.001.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/vcr_osd_mono_1.001.spritefont
-
-#begin fonts/windows_command_prompt.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:fonts/windows_command_prompt.spritefont
-
-#begin songs/volume_01/track_01.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_01.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_01.wav
+/build:Songs/Volume_01/Track_01.ogg
 
-#begin songs/volume_01/track_02.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_02.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_02.wav
+/build:Songs/Volume_01/Track_02.ogg
 
-#begin songs/volume_01/track_03.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_03.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_03.wav
+/build:Songs/Volume_01/Track_03.ogg
 
-#begin songs/volume_01/track_04.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_04.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_04.wav
+/build:Songs/Volume_01/Track_04.ogg
 
-#begin songs/volume_01/track_05.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_05.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_05.wav
+/build:Songs/Volume_01/Track_05.ogg
 
-#begin songs/volume_01/track_06.wav
-/importer:WavImporter
+#begin Songs/Volume_01/Track_06.ogg
+/importer:OggImporter
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:songs/volume_01/track_06.wav
+/build:Songs/Volume_01/Track_06.ogg
 
-#begin sounds/uis/accepted.wav
+#begin Sounds/UI/Accepted.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/accepted.wav
+/build:Sounds/UI/Accepted.wav
 
-#begin sounds/uis/click.wav
+#begin Sounds/UI/Click.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/click.wav
+/build:Sounds/UI/Click.wav
 
-#begin sounds/uis/error.wav
+#begin Sounds/UI/Error.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/error.wav
+/build:Sounds/UI/Error.wav
 
-#begin sounds/uis/hover.wav
+#begin Sounds/UI/Hover.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/hover.wav
+/build:Sounds/UI/Hover.wav
 
-#begin sounds/uis/message.wav
+#begin Sounds/UI/Message.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/message.wav
+/build:Sounds/UI/Message.wav
 
-#begin sounds/uis/pause_ended.wav
+#begin Sounds/UI/PauseEnded.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/pause_ended.wav
+/build:Sounds/UI/PauseEnded.wav
 
-#begin sounds/uis/pause_started.wav
+#begin Sounds/UI/PauseStarted.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/pause_started.wav
+/build:Sounds/UI/PauseStarted.wav
 
-#begin sounds/uis/rejected.wav
+#begin Sounds/UI/Rejected.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/rejected.wav
+/build:Sounds/UI/Rejected.wav
 
-#begin sounds/uis/returning.wav
+#begin Sounds/UI/Returning.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/returning.wav
+/build:Sounds/UI/Returning.wav
 
-#begin sounds/uis/typing_1.wav
+#begin Sounds/UI/Typing_01.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/typing_1.wav
+/build:Sounds/UI/Typing_01.wav
 
-#begin sounds/uis/typing_2.wav
+#begin Sounds/UI/Typing_02.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/typing_2.wav
+/build:Sounds/UI/Typing_02.wav
 
-#begin sounds/uis/typing_3.wav
+#begin Sounds/UI/Typing_03.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/typing_3.wav
+/build:Sounds/UI/Typing_03.wav
 
-#begin sounds/uis/typing_4.wav
+#begin Sounds/UI/Typing_04.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/typing_4.wav
+/build:Sounds/UI/Typing_04.wav
 
-#begin sounds/uis/typing_5.wav
+#begin Sounds/UI/Typing_05.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/typing_5.wav
+/build:Sounds/UI/Typing_05.wav
 
-#begin sounds/uis/world_loaded.wav
+#begin Sounds/UI/WorldLoaded.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/world_loaded.wav
+/build:Sounds/UI/WorldLoaded.wav
 
-#begin sounds/uis/world_saved.wav
+#begin Sounds/UI/WorldSaved.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:sounds/uis/world_saved.wav
+/build:Sounds/UI/WorldSaved.wav
 
-#begin textures/achievements.png
+#begin Textures/Achievements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -224,9 +161,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/achievements.png
+/build:Textures/Achievements.png
 
-#begin textures/actors.png
+#begin Textures/Actors.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -236,9 +173,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/actors.png
+/build:Textures/Actors.png
 
-#begin textures/backgrounds/clouds.png
+#begin Textures/Backgrounds.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -248,9 +185,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/backgrounds/clouds.png
+/build:Textures/Backgrounds.png
 
-#begin textures/backgrounds/ocean.png
+#begin Textures/BGOs.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -260,9 +197,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/backgrounds/ocean.png
+/build:Textures/BGOs.png
 
-#begin textures/bgos/celestial_bodies.png
+#begin Textures/Cursors.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -272,9 +209,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/bgos/celestial_bodies.png
+/build:Textures/Cursors.png
 
-#begin textures/bgos/clouds.png
+#begin Textures/Elements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -284,9 +221,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/bgos/clouds.png
+/build:Textures/Elements.png
 
-#begin textures/characters/starciad.png
+#begin Textures/Frames.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -296,9 +233,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/characters/starciad.png
+/build:Textures/Frames.png
 
-#begin textures/cursors.png
+#begin Textures/Icons.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -308,9 +245,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/cursors.png
+/build:Textures/Icons.png
 
-#begin textures/elements.png
+#begin Textures/Patterns.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -320,9 +257,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/elements.png
+/build:Textures/Patterns.png
 
-#begin textures/frames.png
+#begin Textures/UI/Elements.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -332,9 +269,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/frames.png
+/build:Textures/UI/Elements.png
 
-#begin textures/game/title.png
+#begin Textures/UI/Panels.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -344,9 +281,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/game/title.png
+/build:Textures/UI/Panels.png
 
-#begin textures/icons/actors.png
+#begin Textures/UI/Tutorial.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -356,137 +293,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:textures/icons/actors.png
-
-#begin textures/icons/elements.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/icons/elements.png
-
-#begin textures/icons/keys.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/icons/keys.png
-
-#begin textures/icons/tools.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/icons/tools.png
-
-#begin textures/icons/ui.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/icons/ui.png
-
-#begin textures/miscellaneous/theatrical_curtains.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/miscellaneous/theatrical_curtains.png
-
-#begin textures/patterns/diamonds.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/patterns/diamonds.png
-
-#begin textures/third_parties/monogame.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/third_parties/monogame.png
-
-#begin textures/third_parties/xna.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/third_parties/xna.png
-
-#begin textures/ui/elements.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/ui/elements.png
-
-#begin textures/ui/panels.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/ui/panels.png
-
-#begin textures/ui/tutorial.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:textures/ui/tutorial.png
+/build:Textures/UI/Tutorial.png
 
